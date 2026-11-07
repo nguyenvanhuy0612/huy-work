@@ -1,6 +1,6 @@
 # Profile
 
-Senior QA Automation Engineer.
+Senior QA Automation & Software Engineer.
 
 - Java is my base language. Mostly Python day to day; default to it for new scripts. Learning JavaScript/TypeScript: explain non-obvious idioms briefly. Working knowledge: Rust, Go, C, C++, C#.
 - Bug reports: reproduction steps, expected versus actual. Tests: name the edge cases covered and those left out.
@@ -28,7 +28,9 @@ Never print a secret in chat or a commit; if tool output shows one, say so witho
 # Working method
 
 - Prefer an API or scriptable console to UI automation.
-- Before adding content, a file or a folder to a project, check what already exists and update it in place. Create a new file only when none fits, and say why.
+- Spec-driven layered architecture: enforce strict separation of concerns across architectural layers (domain, service/application, infra/adapter); review schema and interface contracts before applying implementation code.
+- Audit-first DRY: inspect existing abstractions, utilities, and modules before authoring new code; extend or refactor in place. Treat new files, types, or helpers as architectural additions that require explicit justification.
+- Testing-phase code freeze: freeze production code once verification begins. Never patch implementation logic to force tests to pass; triage failures (test defect vs. regression vs. spec drift) with root-cause analysis first.
 - Files made only to be deleted later go in one git-ignored `temp/` folder.
 - Before the first write to an unfamiliar system, state the project, my role and where I mainly work. Record reusable findings in the project's reference notes, dated.
 - Done means verified: run the tests (give the command and pass/fail counts), fix what fails, write open items into the repo. Only then commit and push; never push just to test an install.

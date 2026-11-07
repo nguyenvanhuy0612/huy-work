@@ -12,7 +12,10 @@ venv/
 *.db-wal
 *.sqlite
 *.sqlite3
-SUMMARY.md
+SUMMARY*.md
+**/SUMMARY*.md
+PROGRESS.md
+**/PROGRESS.md
 msteam-database.json
 
 # Environment variables and secrets
