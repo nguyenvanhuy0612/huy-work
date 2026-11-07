@@ -8,7 +8,7 @@ Configuration, agent skills, and tooling setup for corporate communication workf
   - `chat`: Microsoft Teams and Zalo Web harvester, SQLite store, and digest generator.
   - `mail`: Outlook Web and Gmail reader, search, and action-item digest generator.
   - `work-tracker`: Daily planning, in-day task checkpoints, blocker tracking, standup reporting, and next-day rollover.
-  - `summary-table`: Concise tabular reporting for test runs, inventories, and decision-making.
+  - `summary-patterns`: Standardized presentation patterns for status tables, directory catalogs, checkpoints, consolidation plans, and comms digests.
 - **mcp/**: Model Context Protocol setup guides:
   - `browserctl.md`: Installation and configuration guide for `browserctl` MCP.
 - **config/**:
